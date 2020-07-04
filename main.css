@@ -1,0 +1,185 @@
+/* EXTRA SMALL SIZE / ALL */
+
+* {
+	margin: 0;
+	padding: 0;
+	display: border-box;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: Consolas, sans-serif;
+	text-align: left;
+	color: #070707;
+}
+
+.section {
+	width: 100vw;
+	height: 95vh;
+	background-color: #599;
+}
+
+.section:nth-child(2n+3) {
+	background-color: #4d9191; /* TEMP: This is to mark the Portfolio section from the others temporarily! (Might actually keep with a lower contrast colour.) */
+}
+
+.smallSection {
+	width: 100vw;
+	height: 5vh;
+	background-color: #022;
+	color: #eee;
+}
+
+a {
+	color: inherit;
+}
+
+a:focus {
+	outline: none;
+}
+
+h1 {
+	height: 5vh;
+	text-align: center;
+	font-size: 4vh;
+}
+
+h1 a {
+	text-decoration: none;
+	font-size: 4vh;
+}
+
+h1 a:hover {
+	color: #022;
+}
+
+h1 a:focus {
+	color: #022;
+}
+
+/* Landing Section (With About) */
+
+#landing {
+	height: 90vh;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	flex-direction: column;
+	background-color: #033;
+	color: #eee;
+}
+
+#landing a {
+	text-decoration: underline overline;
+}
+
+#landing a:hover {
+	background-color: #eee;
+	color: #033;
+	text-decoration: none;
+}
+
+#about {
+	margin: 33.333vh 10vw 0 10vw;
+	font-size: 2vw;
+}
+
+#arrow {
+	margin: 3vh;
+	text-align: center;
+	font-size: 3vw;
+}
+
+#arrow a {
+	text-decoration: none;
+}
+
+/* Wide Navigation Bar */
+
+#wideNav {
+	width: 100vw;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-around;
+}
+
+#wideNav div {
+	display: flex;
+	align-items: center;
+}
+
+#navName {
+	flex: 1;
+	margin-left: 1.5vw;
+	justify-content: flex-start;
+	text-align: left;
+	font-size: 2vh;
+}
+
+#navLinks {
+	flex: 3;
+	justify-content: space-around;
+	font-size: 2vh;
+}
+
+#navLinks svg {
+	width: 2vh;
+	height: 2vh;
+}
+
+#navSocials {
+	flex: 1;
+	margin-right: 1.5vw;
+	justify-content: space-around;
+	font-size: 4vh;
+}
+
+#navSocials svg {
+	width: 3vh;
+	height: 3vh;
+}
+
+#navSocials:hover {
+	text-decoration: none;
+	color: #4d9191;
+}
+
+#navSocials:focus {
+	text-decoration: none;
+	color: #4d9191;
+}
+
+#navSocials:active {
+	text-decoration: none;
+	color: #4d9191;
+}
+
+/* Dropdown Navigation Bar */
+
+/* TODO: ADD THE DROPDOWN NAVIGATION BAR */
+
+/* Both Navigation Bars */
+
+nav a {
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+nav a:focus {
+	text-decoration: underline;
+}
+
+/* Skills Section */
+
+/* Footer */
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	font-size: 2vh;
+}
