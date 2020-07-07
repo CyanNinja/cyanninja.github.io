@@ -69,7 +69,12 @@
 		<div id="contact" class="section">
 			<h1><a href="#contact">#</a>&#9656;Contact</h1>
 		</div>
-		<footer class="smallSection">&copy; 2020 CyanNinja</footer>
+
+		<footer class="smallSection"><p>&copy; <a id="year">2020</a> CyanNinja</p></footer>
+		<!-- Small JavaScript script to change the copyright to always be the correct year; just a small neato, but also don't want the website to actually require JavaScript. -->
+		<script type="text/javascript">
+			document.getElementById("year").innerHTML = new Date().getFullYear();
+		</script>
 	</div>
 	</body>
 </html>
