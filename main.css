@@ -174,6 +174,66 @@ nav a:focus {
 
 /* Skills Section */
 
+.cards {
+	height: 15.7vh;
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: #eee;
+}
+
+.cards div { /* Each Card */
+	margin: 0.25vw;
+	height: 4.5vh;
+	width: 30vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #033;
+	border-radius: 1vh;
+}
+
+.cards div svg { /* Each Icon */
+	width: 4.5vh;
+	height: 4.5vh;
+	margin: 0.5vh;
+	margin-left: 1vh;
+}
+
+.cards div p { /* Each Title */
+	margin: 0.5vh;
+	margin-right: 1vh;
+}
+
+.showMore	{
+	height: 5vh;
+}
+
+h2 {
+	margin-top: 1.875vh;
+	margin-left: 1.875vh;
+	height: 5vh;
+	font-size: 3.125vh;
+}
+
+h2 a {
+	border-radius: 1.25vh;
+	font-weight: lighter;
+}
+
+h2 a:hover {
+	background-color: #022;
+	color: #eee;
+	font-weight: lighter;
+}
+
+h2:active {
+
+}
+
 /* Footer */
 
 footer {
