@@ -175,7 +175,7 @@ nav a:focus {
 /* Skills Section */
 
 .cards {
-	height: 15.7vh;
+	max-height: 15.7vh;
 	width: 100vw;
 	display: flex;
 	justify-content: space-around;
@@ -230,8 +230,12 @@ h2 a:hover {
 	font-weight: lighter;
 }
 
-h2:active {
+h2:hover + div {
+	max-height: 100vh;
+}
 
+h2:active + div {
+	max-height: 100vh;
 }
 
 /* Footer */
