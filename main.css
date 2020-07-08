@@ -181,7 +181,7 @@ nav a:focus {
 /* Skills Section */
 
 .cards {
-	max-height: 15.7vh;
+	height: 20vh;
 	width: 100vw;
 	display: flex;
 	justify-content: space-around;
@@ -193,7 +193,7 @@ nav a:focus {
 
 .cards div { /* Each Card */
 	margin: 0.25vw;
-	height: 4.5vh;
+	height: 5vh;
 	width: 30vw;
 	display: flex;
 	justify-content: space-between;
@@ -206,12 +206,13 @@ nav a:focus {
 	width: 4.5vh;
 	height: 4.5vh;
 	margin: 0.5vh;
-	margin-left: 1vh;
+	margin-left: 1vw;
 }
 
 .cards div p { /* Each Title */
 	margin: 0.5vh;
-	margin-right: 1vh;
+	margin-right: 1vw;
+	text-align: right;
 }
 
 .showMore	{
@@ -236,12 +237,46 @@ h2 a:hover {
 	font-weight: lighter;
 }
 
+h2 a:focus {
+	background-color: #022;
+	color: #eee;
+	font-weight: lighter;
+}
+
+h2 a:active {
+	background-color: #022;
+	color: #eee;
+	font-weight: lighter;
+}
+
+h2:hover a {
+	background-color: #022;
+	color: #eee;
+	font-weight: lighter;
+}
+
+h2:focus a {
+	background-color: #022;
+	color: #eee;
+	font-weight: lighter;
+}
+
+h2:active a {
+	background-color: #022;
+	color: #eee;
+	font-weight: lighter;
+}
+
 h2:hover + div {
-	max-height: 100vh;
+	height: auto;
+	min-height: 20vh;
+	max-height: 95vh;
 }
 
 h2:active + div {
-	max-height: 100vh;
+	height: auto;
+	min-height: 20vh;
+	max-height: 95vh;
 }
 
 /* Footer */
