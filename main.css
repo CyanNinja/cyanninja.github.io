@@ -219,65 +219,69 @@ nav a:focus {
 	height: 5vh;
 }
 
-h2 {
+#skills h2 {
 	margin-top: 1.875vh;
 	margin-left: 1.875vh;
 	height: 5vh;
 	font-size: 3.125vh;
 }
 
-h2 a {
+#skills h2 a {
 	border-radius: 1.25vh;
 	font-weight: lighter;
 }
 
-h2 a:hover {
+#skills h2 a:hover {
 	background-color: #022;
 	color: #eee;
 	font-weight: lighter;
 }
 
-h2 a:focus {
+#skills h2 a:focus {
 	background-color: #022;
 	color: #eee;
 	font-weight: lighter;
 }
 
-h2 a:active {
+#skills h2 a:active {
 	background-color: #022;
 	color: #eee;
 	font-weight: lighter;
 }
 
-h2:hover a {
+#skills h2:hover a {
 	background-color: #022;
 	color: #eee;
 	font-weight: lighter;
 }
 
-h2:focus a {
+#skills h2:focus a {
 	background-color: #022;
 	color: #eee;
 	font-weight: lighter;
 }
 
-h2:active a {
+#skills h2:active a {
 	background-color: #022;
 	color: #eee;
 	font-weight: lighter;
 }
 
-h2:hover + div {
+#skills h2:hover + div {
 	height: auto;
 	min-height: 20vh;
 	max-height: 95vh;
 }
 
-h2:active + div {
+#skills h2:active + div {
 	height: auto;
 	min-height: 20vh;
 	max-height: 95vh;
 }
+
+/* Portfolio */
+
+
 
 /* Footer */
 
