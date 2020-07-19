@@ -16,7 +16,7 @@ body {
 
 .section {
 	width: 100vw;
-	height: 95vh;
+	min-height: 95vh;
 	background-color: #599;
 }
 
@@ -26,7 +26,7 @@ body {
 
 .smallSection {
 	width: 100vw;
-	height: 5vh;
+	min-height: 5vh;
 	background-color: #022;
 	color: #eee;
 }
@@ -66,7 +66,7 @@ em {
 /* Landing Section (With About) */
 
 #landing {
-	height: 90vh;
+	min-height: 90vh;
 	display: flex;
 	align-items: stretch;
 	justify-content: space-between;
@@ -281,7 +281,75 @@ nav a:focus {
 
 /* Portfolio */
 
+#projects {
+	margin: 0.5vw;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
 
+#projects div {
+	width: 25vw;
+	height: 25vw;
+	margin: 0.5vw;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	background-color: #033;
+	text-align: center;
+	color: #eee;
+}
+
+.lightBackground {
+	color: #111;
+}
+
+#projects div h2 {
+	margin: 0.75vh;
+	font-size: 3vw;
+}
+
+#projects div h3 {
+	margin: 1vh;
+	font-size: 2.5vw;
+}
+
+#projects div h3 svg {
+	width: 2.5vw;
+	height: 2.5vw;
+}
+
+#projects div h4 {
+	display: none;
+	font-size: 2.375vw;
+}
+
+#projects div:hover h4 {
+	display: block;
+}
+
+#projects div:focus h4 {
+	display: block;
+}
+
+#projects div:active h4 {
+	display: block;
+}
+
+#projects div:hover {
+	width: 100vw;
+	height: 65vh;
+}
+
+#projects div:focus {
+	width: 100vw;
+	height: 65vh;
+}
+
+#projects div:active {
+	width: 100vw;
+	height: 65vh;
+}
 
 /* Footer */
 
