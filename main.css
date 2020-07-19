@@ -21,7 +21,7 @@ body {
 }
 
 .section:nth-child(2n+3) {
-	background-color: #4d9191; /* TEMP: This is to mark the Portfolio section from the others temporarily! (Might actually keep with a lower contrast colour.) */
+	background-color: #4d9191;
 }
 
 .smallSection {
